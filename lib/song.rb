@@ -13,6 +13,7 @@ def self.all
 end
 
 def artist_name
+  self(artist_name)
   self.artist
 end
 end

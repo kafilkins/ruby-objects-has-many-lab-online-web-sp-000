@@ -7,7 +7,9 @@ def initialize(name)
 end
 
 def songs
-  @songs
+  Song.all.select do |song|
+    song.artist == self
+  end
 end
 
 end

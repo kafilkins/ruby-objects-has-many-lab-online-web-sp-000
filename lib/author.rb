@@ -23,6 +23,6 @@ def initialize(name)
   end
 
   def self.post_count
-    
+
   end
 end

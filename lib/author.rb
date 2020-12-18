@@ -10,6 +10,7 @@ def initialize(name)
   def posts
     Post.all.select do |post|
       post.author == self
+    end
   end
 
   def add_post(post)

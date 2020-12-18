@@ -13,6 +13,6 @@ def self.all
 end
 
 def artist_name
-  self.artist
+  self.artist = song
 end
 end
